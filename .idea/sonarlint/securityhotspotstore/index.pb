@@ -1,0 +1,5 @@
+
+7
+main.py,f\1\f1bdda93d9a278e358509d498e17d97764c1fb29
+@
+.venv/.gitignore,6\6\662a180439d3fc561d8b5872c4032c6494df06c4
