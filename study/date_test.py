@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 today = datetime.today()
 
@@ -20,3 +20,9 @@ print(second)
 
 print(datetime.today().strftime("%Y%m%d %H%M%S"))
 print(datetime.today().strftime("%Y-%m-%d %H:%M0:%S"))
+
+print()
+
+yesterday = datetime.today() - timedelta(2)
+print(yesterday)
+print(yesterday.strftime("%Y-%m-%d"))
