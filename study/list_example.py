@@ -33,3 +33,31 @@ print(animals_len)
 animals_len3 = len(animals3)
 
 print(animals_len3)
+
+animals.sort()
+
+print(animals)
+
+animals.sort(reverse=True)
+
+print(animals)
+
+animals.sort(reverse=False)
+
+print(animals)
+
+del animals[-1] # 마지막 데이터 삭제
+
+print(animals)
+
+animals.append("하마")
+animals.append("뱀")
+
+print(animals)
+
+slicing = animals[1:3]
+
+print(animals)
+print(slicing)
+
+
