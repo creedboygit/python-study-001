@@ -18,7 +18,7 @@ del animals[1]
 
 print(animals)
 
-animals2 = animals[1 :3]
+animals2 = animals[1:3]
 
 print(animals2)
 
