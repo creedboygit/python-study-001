@@ -21,7 +21,7 @@ while True:
 
     if random_number not in lotto_num:  # 로또 번호 리스트 안에 뽑은 로또 번호가 없으면
         lotto_num.append(random_number)  # 로또 번호 리스트에 뽑은 로또 번호를 추가해라
-        count += 12
+        count += 1
 
 lotto_num.sort()
 print(lotto_num)
