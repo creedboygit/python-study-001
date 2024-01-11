@@ -7,7 +7,9 @@ headers = {
 }
 
 # search_keyword = input("검색어를 입력해주세요 >>> ")
-search_keyword = pm.prompt(text="검색어를 입력해주세요", title="검색어 입력", default="입력해주세요.")
+search_keyword = pm.prompt(
+    text="검색어를 입력해주세요", title="검색어 입력", default="입력해주세요."
+)
 last_page = int(pm.prompt(text="마지막 페이지를 입력해주세요"))
 
 print("\nsearch_keyword: ", search_keyword, "\n")
