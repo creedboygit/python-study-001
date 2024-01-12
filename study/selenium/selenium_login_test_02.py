@@ -1,12 +1,8 @@
-import time
-
-import pyautogui
 import pyperclip
 from selenium import webdriver
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.chrome.options import Options
 
-# from selenium.webdriver.chrome import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
@@ -49,3 +45,6 @@ clipboard_input(driver, IDxPath, ID)
 clipboard_input(driver, PasswordxPath, Password)
 # driver.find_element(By.CSS_SELECTOR, '//*[@value="로그인"]').click()
 driver.find_element(By.CSS_SELECTOR, r'#log\.login').click()
+
+# 새로운 기기 등록을 위한 창이 떴을 때, don't save를 클릭
+driver.find_element(By.CSS_SELECTOR,r'#new\.dontsave').click()
