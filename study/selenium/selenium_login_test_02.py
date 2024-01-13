@@ -47,4 +47,4 @@ clipboard_input(driver, PasswordxPath, Password)
 driver.find_element(By.CSS_SELECTOR, r'#log\.login').click()
 
 # 새로운 기기 등록을 위한 창이 떴을 때, don't save를 클릭
-driver.find_element(By.CSS_SELECTOR,r'#new\.dontsave').click()
+driver.find_element(By.CSS_SELECTOR, r'#new\.dontsave').click()
