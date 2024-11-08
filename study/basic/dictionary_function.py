@@ -5,7 +5,7 @@
 # 5. 어시스트
 
 play_data = {
-    "result": "승리",
+    "result": "승리1",
     "champ_name": "티모",
     "kill": 13,
     "death": 9,
